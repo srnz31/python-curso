@@ -25,5 +25,5 @@ entry_email = Entry(lb, width=21, font='arial 25', bd=0, justify=RIGHT)
 entry_email.place(x=48, y=243)
 
 entry_password = Entry(lb, width=21, font='arial 25', bd=0)
-entry_password.place(x=48, y=354)
+entry_password.place(x=485, y=354)
 root.mainloop()
