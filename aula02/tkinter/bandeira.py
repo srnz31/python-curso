@@ -25,9 +25,9 @@ frame_blue2 = tkinter.Frame(root2, width=300, height=100, background= '#ff0000')
 frame_red2 = tkinter.Frame(root2, width=300, height=100, background= '#0000ff')
 frame_white2 = tkinter.Frame(root2, width=300, height=100, background= '#fff')
 
-frame_red2.pack(side=TOP)
-frame_white2.pack(side=TOP)
 frame_blue2.pack(side=TOP)
+frame_white2.pack(side=TOP)
+frame_red2.pack(side=TOP)
 
 root.mainloop()
 root2.mainloop()
